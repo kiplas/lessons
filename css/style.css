@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'DMSans';
+  src: url(../fonts/DMSans-Regular.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url(../fonts/DMSans-Bold.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+/* global styles ------------------------------- */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* header styles ------------------------ */
+
+
+.header {
+  display: flex;
+  padding: 0 calc(50% - 600px);
+  height: 56px;
+}
+
+.menu {
+  margin-left: 217px;
+}
+
+.menu__items {
+  display: flex;
+  margin-top: 4px;
+}
+
+.menu__item+.menu__item {
+  margin-left: 76px;
+}
+
+.menu__link {
+  font-family: 'DMSans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #161616;
+}
+
+.menu__buttons {
+  margin-left: auto;
+  margin-top: 3px;
+}
+
+.menu__button+.menu__button {
+  margin-left: 30px;
+}
+
+
+/* about styles ------------------ */
+
+
+.about {
+  color: #fff;
+}
+
+.about__wrapper {
+  display: flex;
+  background-color: #154444;
+}
+
+.about-img {
+  max-width: 411px;
+  height: 100%;
+}
+
+.about__content {
+  margin: 101px 0 0 100px;
+}
+
+.about__title {
+  font-family: 'DMSans', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  max-width: 671px;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-family: 'DMSans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  max-width: 488px;
+  margin-bottom: 35px;
+}
+
+.about__button {
+  font-family: 'DMSans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #154444;
+  background-color: #fff;
+  padding: 15px 25px;
+}
