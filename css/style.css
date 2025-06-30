@@ -1,0 +1,132 @@
+/* general styles --------------------------- */
+
+:root {
+  --avenir: "Avenir Next", sans-serif;
+  --color-default: #434364;
+  --title-weight: 700;
+  --title-size: 16px;
+  --text-weight: 500;
+  --text-size: 16px;
+  --leter-spacing: 0.03em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+h2 {
+  font-family: var(--avenir);
+  font-weight: var(--title-weight);
+  font-size: var(--title-size);
+  color: var(--color-default);
+  margin-bottom: 20px;
+  letter-spacing: var(--leter-spacing);
+}
+
+p {
+  font-family: var(--avenir);
+  font-size: var(--text-weight);
+  color: var(--color-default);
+  margin-bottom: 20px;
+  letter-spacing: var(--leter-spacing);
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.title__underline{
+  text-decoration: underline;
+  font-weight: var(--text-weight);
+}
+
+/* main styles --------------------------- */
+
+.main{
+  margin-bottom: 40px;
+}
+
+.policy__title {
+  font-family: var(--avenir);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  position: relative;
+  margin: 60px 0 50px;
+}
+
+.policy__title::after {
+  content: '';
+  position: absolute;
+  width: 380px;
+  height: 4px;
+  background-color: #fdbfa3;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contacts-top,
+.contacts-bottom {
+  font-family: var(--avenir);
+  font-weight: var(--title-weight);
+  color: var(--color-default);
+}
+
+.personal-info,
+.how-use {
+  margin-bottom: 20px;
+}
+
+.personal-info>p:last-child,
+.how-use>p:last-child {
+  margin-bottom: 0;
+}
+
+.personal-info>p::before,
+.how-use>p::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-default);
+  transform: translateY(5%);
+}
+
+.browsers p {
+  margin-bottom: 10px;
+}
+
+.browsers>p:last-child {
+  margin-bottom: 20px;
+}
+
+.browsers>p::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--color-default);
+  transform: translateY(-55%);
+}
+
+/* footer styles --------------------------- */
+
+.footer{
+  height: 100px;
+  background-color: #828cde;
+}
