@@ -1,0 +1,94 @@
+/* general styles ---------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+/* main and form styles ---------------------------- */
+
+label {
+  display: block;
+}
+
+span {
+  color: red;
+}
+
+.main {
+  max-width: 550px;
+  margin: 30px auto;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.text {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.form {
+  max-width: 550px;
+}
+
+.form__title {
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.form__title legend {
+  font-size: 22px;
+}
+
+.form__input-name,
+.form__select-name,
+.form__textarea-name {
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.form__select {
+  width: 173px;
+}
+
+.form__textarea-wrap {
+  display: flex;
+}
+
+.form__textarea-name {
+  width: 103px;
+}
+
+.form__textarea {
+  width: 173px;
+  height: 100px;
+}
+
+.form__title-animals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.form__title-animals .form__label {
+  width: 100px;
+  display: flex;
+  gap: 5px;
+}
+
+.form__btn {
+  border: 1px solid #cacaca;
+  background-color: #f0f0f0;
+  padding: 10px 30px;
+  cursor: pointer;
+}
