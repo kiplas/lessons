@@ -1,0 +1,156 @@
+/* global style ----- */
+
+@font-face {
+  font-family: 'Stem';
+  src: url('../fonts/Stem-Light.woff2') format('woff2'),
+    url('../fonts/Stem-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url('../fonts/Stem-SemiLight.woff2') format('woff2'),
+    url('../fonts/Stem-SemiLight.woff') format('woff');
+  font-style: normal;
+  font-weight: 350;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url('../fonts/Stem-Medium.woff2') format('woff2'),
+    url('../fonts/Stem-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+
+ul,
+li {
+  font-family: inherit;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* products style ----- */
+
+.products {
+  max-width: 1380px;
+  margin: 0 auto;
+  font-family: 'Stem';
+  font-weight: 350;
+  color: #0f213a;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 25px;
+}
+
+.breadcrumb__item {
+  font-size: 14px;
+  line-height: 1.71;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.breadcrumb__item:last-child {
+  opacity: 0.5;
+}
+
+.breadcrumb__item+.breadcrumb__item::before {
+  content: '/';
+  position: absolute;
+  left: -15px;
+  opacity: 0.5;
+}
+
+.products__wrap-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.products__content {
+  max-width: 920px;
+}
+
+.products__title {
+  font-weight: 350;
+  font-size: 35px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+
+.products__text {
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.products__filters {
+  display: flex;
+  justify-content: space-between;
+  width: 389px;
+}
+
+.products__filters button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.filters__price {
+  position: relative;
+}
+
+.filters__price::after {
+  position: absolute;
+  content: '';
+  background-image: url('../img/arrow.svg');
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 8px;
+  right: -22px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.filters__btn span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.83;
+  padding: 0 7px;
+  margin-left: 8px;
+  text-align: center;
+  background-color: #87f1ff4f;
+  border-radius: 50%;
+}
