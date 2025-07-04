@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -10,17 +10,17 @@
 
 <body>
   <div class="products">
-      <ul class="breadcrumb">
-        <li class="breadcrumb__item">
-          <a class="breadcrump__link" href="#">Каталог</a>
-        </li>
-        <li class="breadcrumb__item">
-          <a class="breadcrump__link" href="#">Для Лица</a>
-        </li>
-        <li class="breadcrumb__item">
-          <a class="breadcrump__link" href="#">Питание и увлажнение</a>
-        </li>
-      </ul>
+    <ul class="breadcrumb">
+      <li class="breadcrumb__item">
+        <a class="breadcrump__link" href="#">Каталог</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a class="breadcrump__link" href="#">Для Лица</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a class="breadcrump__link" href="#">Питание и увлажнение</a>
+      </li>
+    </ul>
     <div class="products__wrap-content">
       <div class="products__content">
         <h1 class="products__title">
@@ -47,18 +47,217 @@
         <div class="card__wrap">
           <img class="card__img" src="img/card-1.jpg" alt="cream">
           <div class="card__icon-sell">-20%</div>
-          <div class="card__icon-present"></div>
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
         </div>
         <div class="card__trends">
           <p class="card__trends-new">новинка</p>
           <p class="card__trends-best">Bestseller</p>
         </div>
         <a class="card__link" href="#">
-          Крем для век Жизненная сила Про-Коллаген 15 мл
+          <p class="card__link-text">
+            Крем для век Жизненная сила Про-Коллаген 15 мл
+          </p>
         </a>
-        <div class="star-rating">
-
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
+        <div class="card__price">
+          <p class="card__price-new">
+            5 499 ₽
+          </p>
+          <p class="card__price-old">
+            6 200 ₽
+          </p>
         </div>
+        <button class="card__btn">
+          Добавить в корзину
+        </button>
+      </div>
+      <div class="card">
+        <div class="card__wrap">
+          <img class="card__img" src="img/card-2.jpg" alt="cream">
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <div class="card__trends">
+        </div>
+        <a class="card__link" href="#">
+          <p class="card__link-text">
+            Крем для век Жизненная сила Про-Коллаген 15 мл
+          </p>
+        </a>
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
+        <div class="card__price">
+          <p class="card__price-new">
+            3 700 ₽
+          </p>
+        </div>
+        <button class="card__btn card__btn-soon">
+          Скоро в продаже
+        </button>
+      </div>
+      <div class="card">
+        <div class="card__wrap">
+          <img class="card__img" src="img/card-3.jpg" alt="cream">
+          <div class="card__icon-present"></div>
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <div class="card__trends">
+          <p class="card__trends-new">новинка</p>
+          <p class="card__trends-best">Bestseller</p>
+        </div>
+        <a class="card__link" href="#">
+          <p class="card__link-text">
+            Крем для век Жизненная сила Про-Коллаген 15 мл
+          </p>
+        </a>
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
+        <div class="card__price">
+          <p class="card__price-new">
+            5 499 ₽
+          </p>
+          <p class="card__price-old">
+            6 200 ₽
+          </p>
+        </div>
+        <button class="card__btn">
+          Добавить в корзину
+        </button>
+      </div>
+      <div class="card">
+        <div class="card__wrap">
+          <img class="card__img" src="img/card-4.jpg" alt="cream">
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <div class="card__trends">
+        </div>
+        <a class="card__link" href="#">
+          <p class="card__link-text">
+            Крем для лица Морские водоросли Про-Коллаген 50
+          </p>
+        </a>
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
+        <div class="card__price">
+          <p class="card__price-new">
+            5 499 ₽
+          </p>
+        </div>
+        <button class="card__btn">
+          Добавить в корзину
+        </button>
+      </div>
+      <div class="card">
+        <div class="card__wrap">
+          <img class="card__img" src="img/card-5.jpg" alt="cream">
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <div class="card__trends">
+          <p class="card__trends-new">новинка</p>
+        </div>
+        <a class="card__link" href="#">
+          <p class="card__link-text">
+            Крем для век Жизненная сила Про-Коллаген 15 мл
+          </p>
+        </a>
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
+        <div class="card__price">
+          <p class="card__price-new">
+            5 499 ₽
+          </p>
+        </div>
+        <button class="card__btn">
+          Добавить в корзину
+        </button>
+      </div>
+      <div class="card">
+        <div class="card__wrap">
+          <img class="card__img" src="img/card-6.jpg" alt="cream">
+          <div class="card__icon-sell">-20%</div>
+          <button class="card__icon-like">
+            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.724 1C18.3547 1.00009 19.7345 1.56794 20.9154 2.73242C22.0974 3.89805 22.6663 5.24713 22.6664 6.8291C22.6664 8.43513 22.2594 9.71352 21.5004 10.7256L21.4545 10.7861L21.4183 10.8545C19.7694 13.9415 16.736 16.8118 12.1986 19.4307C7.25652 15.7903 4.20395 12.9512 2.88123 10.8975L2.84412 10.8398L2.80017 10.7881L2.61951 10.5693C1.74793 9.47025 1.33337 8.2888 1.33337 7C1.33338 5.32126 1.89849 3.9466 3.03259 2.8125C4.21458 1.63063 5.59301 1.05674 7.21912 1.05664C8.78528 1.05664 10.1396 1.58564 11.3246 2.67188L12.0101 3.30078L12.6869 2.66211C13.8781 1.53713 15.2108 1 16.724 1Z"
+                stroke="#E6E5E4" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <div class="card__trends">
+        </div>
+        <a class="card__link" href="#">
+          <p class="card__link-text">
+            Крем для век Жизненная сила Про-Коллаген 15 мл
+          </p>
+        </a>
+        <ul class="star-rating" data-rating="4">
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <li class="star-rating__item"></li>
+          <p class="star-rating__num">(12)</p>
+        </ul>
         <div class="card__price">
           <p class="card__price-new">
             5 499 ₽
