@@ -74,23 +74,23 @@ img {
   margin-bottom: 100px;
 }
 
-.breadcrumb {
+.breadcrumbs {
   display: flex;
   gap: 25px;
 }
 
-.breadcrumb__item {
+.breadcrumbs__item {
   font-size: 14px;
   line-height: 1.71;
   position: relative;
   margin-bottom: 32px;
 }
 
-.breadcrumb__item:last-child {
+.breadcrumbs__item:last-child {
   opacity: 0.5;
 }
 
-.breadcrumb__item+.breadcrumb__item::before {
+.breadcrumbs__item+.breadcrumbs__item::before {
   content: '/';
   position: absolute;
   left: -15px;
@@ -379,7 +379,7 @@ img {
 }
 
 @media (max-width: 576px) {
-  .breadcrumb__item {
+  .breadcrumbs__item {
     margin-bottom: 12px;
   }
 
