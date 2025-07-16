@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gvate Agency</title>
+  <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__mobile">
+      <a class="header__mobile-logo" href="#">
+        <img class="header__mobile-logo" src="img/logo.png" alt="логотип">
+      </a>
+      <button class="header__mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="header__top">
+      <a class="header__logo" href="#">
+        <img class="logo__img" src="img/logo.png" alt="логотип">
+      </a>
+      <p class="header__address">Санкт-Петербург, ул. 4-ая Советская, 15/Б</p>
+      <a class="header__tel" href="tel:+78124245699">+7 (812) 424-56-99</a>
+      <a class="header__telegram" href="#">
+        <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.335596 8.16091L4.71358 9.79491L6.40812 15.2446C6.51655 15.5936 6.94335 15.7226 7.22664 15.491L9.667 13.5016C9.92281 13.2931 10.2872 13.2827 10.5545 13.4768L14.956 16.6724C15.2591 16.8927 15.6884 16.7266 15.7644 16.3604L18.9888 0.850659C19.0718 0.450646 18.6787 0.116942 18.2978 0.264256L0.330466 7.19552C-0.112931 7.36652 -0.109067 7.99428 0.335596 8.16091ZM6.13503 8.92509L14.6912 3.65531C14.845 3.56088 15.0032 3.76881 14.8712 3.89129L7.80982 10.4552C7.56161 10.6862 7.40151 10.9954 7.35616 11.331L7.11562 13.1136C7.08376 13.3516 6.74943 13.3752 6.68375 13.1449L5.75864 9.89428C5.65268 9.52353 5.80709 9.1275 6.13503 8.92509Z"
+            fill="#D93A4D" />
+        </svg>
+      </a>
+      <a class="header__whatsapp" href="#">
+        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M9.03917 0.0109879C4.02129 0.249911 0.0614815 4.42883 0.0767039 9.45239C0.0813388 10.9824 0.450719 12.4266 1.10233 13.7027L0.101878 18.5589C0.0477587 18.8216 0.284682 19.0517 0.545643 18.9899L5.30424 17.8624C6.5268 18.4714 7.89999 18.8232 9.3533 18.8454C14.482 18.9237 18.7585 14.8513 18.9184 9.72448C19.0897 4.22885 14.554 -0.251654 9.03917 0.0109879ZM14.7172 14.6406C13.3236 16.0342 11.4707 16.8017 9.49989 16.8017C8.3459 16.8017 7.24107 16.5427 6.21599 16.0321L5.5533 15.702L2.63579 16.3932L3.24991 13.4121L2.92342 12.7727C2.39127 11.7306 2.12145 10.6036 2.12145 9.42322C2.12145 7.45236 2.88893 5.5995 4.28253 4.20586C5.66367 2.82471 7.54679 2.04474 9.50002 2.04474C11.4708 2.04479 13.3237 2.81226 14.7172 4.20581C16.1108 5.59941 16.8783 7.45226 16.8784 9.42308C16.8783 11.3764 16.0983 13.2595 14.7172 14.6406Z"
+            fill="#D93A4D" />
+          <path
+            d="M14.0731 11.4666L12.2478 10.9425C12.0079 10.8737 11.7495 10.9417 11.5746 11.1199L11.1282 11.5747C10.94 11.7664 10.6544 11.828 10.4053 11.7272C9.54189 11.3778 7.72557 9.76287 7.26172 8.95509C7.1279 8.72207 7.15002 8.43076 7.31434 8.21814L7.70403 7.71399C7.85671 7.51646 7.88892 7.25118 7.78796 7.02285L7.02002 5.286C6.83608 4.86999 6.30448 4.7489 5.95718 5.04262C5.44776 5.47348 4.84331 6.12822 4.76984 6.85358C4.64029 8.13244 5.18875 9.74456 7.26276 11.6803C9.65881 13.9166 11.5776 14.2121 12.8268 13.9094C13.5354 13.7378 14.1017 13.0498 14.4591 12.4864C14.7027 12.1023 14.5103 11.5922 14.0731 11.4666Z"
+            fill="#D93A4D" />
+        </svg>
+      </a>
+      <button class="header__btn">Заказать звонок</button>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item-item">
+          <button class="menu__list-btn">О нас</button>
+        </li>
+        <li class="menu__item-item">
+          <button class="menu__list-btn">Создание сайтов</button>
+        </li>
+        <li class="menu__item-item">
+          <button class="menu__list-btn">Маркетинг и продвижение</button>
+        </li>
+        <li class="menu__item-item">
+          <a class="menu__list-link" href="#works">Сопровождение сайтов</a>
+        </li>
+        <li class="menu__item-item">
+          <a class="menu__list-link" href="#">Портфолио</a>
+        </li>
+        <li class="menu__item-item">
+          <a class="menu__list-link" href="#price">Цены</a>
+        </li>
+        <li class="menu__item-item">
+          <a class="menu__list-link" href="#footer">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="about">
+      <div class="container">
+        <div class="about_content">
+          <h1 class="about__title">Комплексное сопровождение сайта</h1>
+          <p class="about__text">
+            Возьмем на себя все трудности по администрированию любых сайтов
+          </p>
+          <button class="about__btn btn">Заказать обслуживание</button>
+          <img class="about__img" src="img/about-img.png">
+        </div>
+      </div>
+    </section>
+    <section class="pluses">
+      <div class="container">
+        <div class="pluses__wrapper">
+          <div class="pluses__item">
+            <img class="pluses__img" src="img/pluses/pluses-1.svg">
+            <p class="pluses__desc">Оперативный ответ на заявки</p>
+          </div>
+          <div class="pluses__item">
+            <img class="pluses__img" src="img/pluses/pluses-2.svg">
+            <p class="pluses__desc">Улучшаем сайт для поисковых систем</p>
+          </div>
+          <div class="pluses__item">
+            <img class="pluses__img" src="img/pluses/pluses-3.svg">
+            <p class="pluses__desc">Защита сайта от вирусов</p>
+          </div>
+          <div class="pluses__item">
+            <img class="pluses__img" src="img/pluses/pluses-4.svg">
+            <p class="pluses__desc">Ежедневное резервное копирование сайта</p>
+          </div>
+          <div class="pluses__item">
+            <img class="pluses__img" src="img/pluses/pluses-5.svg">
+            <p class="pluses__desc">Бесперебойная работа сайта 24/7</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <h2 class="works__title title">Работы по сопровождению сайта</h2>
+      <div class="swiper works__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-1.svg">
+            <h3 class="works__swiper-title">Лечим вирусы</h3>
+            <p class="works__swiper-text">
+              Все CMS имеют уязвимости. Лечим зараженные сайты, устраняем «дыры» для предотвращения последующих атак
+              злоумышленников.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-2.svg">
+            <h3 class="works__swiper-title">Находим ошибки</h3>
+            <p class="works__swiper-text">
+              Веб сайт может содержать несуществующие страницы, неправильную верстку, проблемы с работой модулей на
+              разных устройствах и браузерах. Все это устраняем.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-3.svg">
+            <h3 class="works__swiper-title">Переносим сайты</h3>
+            <p class="works__swiper-text">
+              При необходимости осуществляем перенос сайта на другой хостинг или домен. Делаем это правильно, без
+              негативных последствий для поисковых систем.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-4.svg">
+            <h3 class="works__swiper-title">Администрируем</h3>
+            <p class="works__swiper-text">
+              Администрирование сайта — это внесение мелких правок: меняем стоимость услуг/товаров, добавляем/изменяем
+              текста, новости, баннеры, картинки и т.д.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-5.svg">
+            <h3 class="works__swiper-title">Дорабатываем дизайн</h3>
+            <p class="works__swiper-text">
+              Прорабатываем и внедряем дизайн как интернет сайта полностью, так и в отдельности необходимых блоков.
+              Проверяем, чтобы все красиво отображалась.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-6.svg">
+            <h3 class="works__swiper-title">Размещаем информацию</h3>
+            <p class="works__swiper-text">
+              Размещаем на веб сайте новую информацию: новости, тексты, товары, услуги, цены. Выполняем работы по всему
+              контент-менеджменту.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-7.svg">
+            <h3 class="works__swiper-title">Пишем тексты</h3>
+            <p class="works__swiper-text">
+              Мы напишем и оформим новости, акции или страницы услуг или товаров, которые требуется в дальнейшем
+              продвинуть в поисковых системах.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-8.svg">
+            <h3 class="works__swiper-title">Поддерживаем запросы</h3>
+            <p class="works__swiper-text">
+              Благодаря всем работам по технической оптимизации, сайт будет ежемесячно расти по ключевым запросам в
+              Яндекс и Гугл. Получается, что продвижение в подарок.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="works__swiper-img" src="img/works/slide-9.svg">
+            <h3 class="works__swiper-title">Доработка сайта</h3>
+            <p class="works__swiper-text">
+              Доработка включает в себя внедрение любого функционала: калькуляторы, модули обратной связи, личный
+              кабинет, адаптивную версию, модуль оплаты и многое другое.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cms-use">
+      <div class="cms-use__bg"></div>
+      <h2 class="cms-use__title title">Мы работаем<br>со всеми популярными CMS</h2>
+      <div class="cms-use__images">
+        <img class="cms-use__img" src="img/cms/cms-1.jpg">
+        <img class="cms-use__img" src="img/cms/cms-2.jpg">
+        <img class="cms-use__img" src="img/cms/cms-3.png">
+        <img class="cms-use__img" src="img/cms/cms-4.png">
+        <img class="cms-use__img" src="img/cms/cms-5.jpg">
+        <img class="cms-use__img" src="img/cms/cms-6.png">
+        <img class="cms-use__img" src="img/cms/cms-7.png">
+      </div>
+      <p class="cms-use__text">а так же любые самописные CMS</p>
+    </section>
+    <section class="price" id="price">
+      <h2 class="price__title title">Сколько стоит администрирование сайта?</h2>
+      <p class="price__text">
+        Тарифы сформированы под объем потребностей и размеры компании
+      </p>
+      <div class="price-menu">
+        <div class="price-menu__item">
+          <div class="price-menu__top">
+            <h3 class="price-menu__title">Базовый</h3>
+            <p class="price-menu__cost">10 000 ₽/мес</p>
+            <p class="price-menu__work-time">
+              4 часа работ<span>Время реакции: в течение суток</span>
+            </p>
+            <ul class="price-menu__services">
+              <p class="price-menu__services-title">Включенные услуги:</p>
+              <li class="price-menu__services-item">Администрирование сайта</li>
+              <li class="price-menu__services-item">Мониторинг работоспособности</li>
+              <li class="price-menu__services-item">Обслуживание сайта (CMS)</li>
+              <li class="price-menu__services-item">Резервное копирование 1 раз/нед</li>
+              <li class="price-menu__services-item">Вопросы с тех. службами</li>
+              <li class="price-menu__services-item">Защита от вирусов</li>
+              <li class="price-menu__services-item">Критические</li>
+              <li class="price-menu__services-item">Поддержка электронной почты</li>
+              <li class="price-menu__services-item">Общие вопросы</li>
+              <li class="price-menu__services-item">Стоимость часа сверх тарифа</li>
+            </ul>
+          </div>
+          <div class="price-menu__bottom">
+            <p class="price-menu__overtime-work">
+              Час работы сверх пакета: <span>2000 ₽/час</span>
+            </p>
+            <button class="price-menu__bgn btn">Заказать за 10 000 ₽</button>
+          </div>
+        </div>
+        <div class="price-menu__item">
+          <div class="price-menu__top">
+            <h3 class="price-menu__title">Оптимальный</h3>
+            <p class="price-menu__cost">15 000 ₽/мес</p>
+            <p class="price-menu__work-time">
+              10 часов работ<span>Время реакции: 6 часов</span>
+            </p>
+            <ul class="price-menu__services">
+              <p class="price-menu__services-title">Всё из тарифы «Базовый», плюс:</p>
+              <li class="price-menu__services-item">Изменение функционала</li>
+            </ul>
+          </div>
+          <div class="price-menu__bottom">
+            <p class="price-menu__overtime-work">
+              Час работы сверх пакета: <span>1700 ₽/час </span>
+            </p>
+            <button class="price-menu__bgn btn">Заказать за 15 000 ₽</button>
+          </div>
+        </div>
+        <div class="price-menu__item">
+          <div class="price-menu__top">
+            <h3 class="price-menu__title">Комплексный</h3>
+            <p class="price-menu__cost">27 000 ₽/мес</p>
+            <p class="price-menu__work-time">
+              20 часов работ<span>Время реакции: 4 часа</span>
+            </p>
+            <ul class="price-menu__services">
+              <p class="price-menu__services-title">Всё из тарифы «Оптимальный», плюс:</p>
+              <li class="price-menu__services-item">Аналитика</li>
+            </ul>
+          </div>
+          <div class="price-menu__bottom">
+            <p class="price-menu__overtime-work">
+              Час работы сверх пакета: <span>1300 ₽/час </span>
+            </p>
+            <button class="price-menu__bgn btn">Заказать за 27 000 ₽</button>
+          </div>
+        </div>
+        <div class="price-menu__item">
+          <div class="price-menu__top">
+            <h3 class="price-menu__title">Бизнес</h3>
+            <p class="price-menu__cost">40 000 ₽/мес</p>
+            <p class="price-menu__work-time">
+              35 часов работ<span>Время реакции: 2 часа</span>
+            </p>
+            <ul class="price-menu__services">
+              <p class="price-menu__services-title">Всё из тарифы «Комплексный», плюс:</p>
+              <li class="price-menu__services-item">Резервное копирование ежедневно</li>
+            </ul>
+          </div>
+          <div class="price-menu__bottom">
+            <p class="price-menu__overtime-work">
+              Час работы сверх пакета: <span>1100 ₽/час </span>
+            </p>
+            <button class="price-menu__bgn btn">Заказать за 40 000 ₽</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work-time">
+      <div class="container">
+        <h2 class="work-time__title title">Что можно получить<br>за час работы специалистов?</h2>
+        <div class="work-time__list">
+          <div class="work-time__item">
+            <h3 class="work-time__item-title">Дизайнер</h3>
+            <p class="work-time__item-text">Разработать простой логотип или баннер для сайта;
+            <p class="work-time__item-text">Нарисовать 5-6 иконок для сайта;</p>
+            <p class="work-time__item-text">Разработать прототип страницы (Axure);</p>
+            <p class="work-time__item-text">Разработать дизайн листовки.</p>
+            </p>
+          </div>
+          <div class="work-time__item">
+            <h3 class="work-time__item-title">Программист</h3>
+            <p class="work-time__item-text">Разработать простой логотип или баннер для сайта;
+            <p class="work-time__item-text">Нарисовать 5-6 иконок для сайта;</p>
+            <p class="work-time__item-text">Разработать прототип страницы (Axure);</p>
+            <p class="work-time__item-text">Разработать дизайн листовки.</p>
+            </p>
+          </div>
+          <div class="work-time__item">
+            <h3 class="work-time__item-title">Верстальщик</h3>
+            <p class="work-time__item-text">Разработать простой логотип или баннер для сайта;
+            <p class="work-time__item-text">Нарисовать 5-6 иконок для сайта;</p>
+            <p class="work-time__item-text">Разработать прототип страницы (Axure);</p>
+            <p class="work-time__item-text">Разработать дизайн листовки.</p>
+            </p>
+          </div>
+          <div class="work-time__item">
+            <h3 class="work-time__item-title">Контент-менеджер</h3>
+            <p class="work-time__item-text">Разработать простой логотип или баннер для сайта;
+            <p class="work-time__item-text">Нарисовать 5-6 иконок для сайта;</p>
+            <p class="work-time__item-text">Разработать прототип страницы (Axure);</p>
+            <p class="work-time__item-text">Разработать дизайн листовки.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients">
+      <h2 class="clients__title title">Наши клиенты</h2>
+      <div class="swiper clients__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/clients/client-1.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-5.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-2.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-3.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-4.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-5.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-5.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/clients/client-5.png">
+          </div>
+        </div>
+        <div class="swiper-button-prev">
+          <img class="clients__arrow" src="img/clients-swiper-arrow-left.svg" alt="">
+        </div>
+        <div class="swiper-button-next">
+          <img class="clients__arrow" src="img/clients-swiper-arrow-right.svg" alt="">
+        </div>
+      </div>
+      <form class="form" action="">
+        <h3 class="form__title title">Закажите сайт и получите подарок!</h3>
+        <p class="form__text">
+          Мы зарегистрируем ваш сайт в авторитетном Яндекс.Каталоге в подарок, что даст моментальный прирост позиций
+        </p>
+        <div class="form__wrap">
+          <div class="input__wrap">
+            <input class="form__input" placeholder="Ваше имя *" name="name" type="text">
+            <svg class="input__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7" clip-path="url(#clip0_2_169)">
+                <path
+                  d="M20 22H18V20C18 19.2044 17.6839 18.4413 17.1213 17.8787C16.5587 17.3161 15.7956 17 15 17H9C8.20435 17 7.44129 17.3161 6.87868 17.8787C6.31607 18.4413 6 19.2044 6 20V22H4V20C4 18.6739 4.52678 17.4021 5.46447 16.4645C6.40215 15.5268 7.67392 15 9 15H15C16.3261 15 17.5979 15.5268 18.5355 16.4645C19.4732 17.4021 20 18.6739 20 20V22ZM12 13C11.2121 13 10.4319 12.8448 9.7039 12.5433C8.97595 12.2417 8.31451 11.7998 7.75736 11.2426C7.20021 10.6855 6.75825 10.0241 6.45672 9.2961C6.15519 8.56815 6 7.78793 6 7C6 6.21207 6.15519 5.43185 6.45672 4.7039C6.75825 3.97595 7.20021 3.31451 7.75736 2.75736C8.31451 2.20021 8.97595 1.75825 9.7039 1.45672C10.4319 1.15519 11.2121 1 12 1C13.5913 1 15.1174 1.63214 16.2426 2.75736C17.3679 3.88258 18 5.4087 18 7C18 8.5913 17.3679 10.1174 16.2426 11.2426C15.1174 12.3679 13.5913 13 12 13ZM12 11C13.0609 11 14.0783 10.5786 14.8284 9.82843C15.5786 9.07828 16 8.06087 16 7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7C8 8.06087 8.42143 9.07828 9.17157 9.82843C9.92172 10.5786 10.9391 11 12 11Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_169">
+                  <rect width="24" height="24" fill="white">
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="input__wrap">
+            <input class="form__input" placeholder="Телефон" name="tel" type="tel">
+            <svg class="input__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7" clip-path="url(#clip0_2_176)">
+                <path
+                  d="M9.366 10.682C10.3043 12.3305 11.6695 13.6957 13.318 14.634L14.202 13.396C14.3442 13.1969 14.5543 13.0569 14.7928 13.0023C15.0313 12.9478 15.2814 12.9825 15.496 13.1C16.9103 13.8729 18.4722 14.3378 20.079 14.464C20.3298 14.4839 20.5638 14.5975 20.7345 14.7823C20.9052 14.9671 21 15.2094 21 15.461V19.923C21.0001 20.1706 20.9083 20.4094 20.7424 20.5932C20.5765 20.777 20.3483 20.8927 20.102 20.918C19.572 20.973 19.038 21 18.5 21C9.94 21 3 14.06 3 5.5C3 4.962 3.027 4.428 3.082 3.898C3.10725 3.6517 3.22298 3.42352 3.40679 3.25763C3.5906 3.09175 3.82941 2.99995 4.077 3H8.539C8.79056 2.99997 9.0329 3.09475 9.21768 3.26545C9.40247 3.43615 9.51613 3.67022 9.536 3.921C9.66222 5.52779 10.1271 7.08968 10.9 8.504C11.0175 8.71856 11.0522 8.96874 10.9977 9.2072C10.9431 9.44565 10.8031 9.65584 10.604 9.798L9.366 10.682ZM6.844 10.025L8.744 8.668C8.20478 7.50409 7.83535 6.26884 7.647 5H5.01C5.004 5.166 5.001 5.333 5.001 5.5C5 12.956 11.044 19 18.5 19C18.667 19 18.834 18.997 19 18.99V16.353C17.7312 16.1646 16.4959 15.7952 15.332 15.256L13.975 17.156C13.4287 16.9437 12.898 16.6931 12.387 16.406L12.329 16.373C10.3676 15.2567 8.74328 13.6324 7.627 11.671L7.594 11.613C7.30691 11.102 7.05628 10.5713 6.844 10.025Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_176">
+                  <rect width="24" height="24" fill="white">
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="input__wrap">
+            <input class="form__input" placeholder="Эл. почта *" name="email" type="email">
+            <svg class="input__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7" clip-path="url(#clip0_2_181)">
+                <path
+                  d="M3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V20C22 20.2652 21.8946 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H3C2.73478 21 2.48043 20.8946 2.29289 20.7071C2.10536 20.5196 2 20.2652 2 20V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3ZM20 7.238L12.072 14.338L4 7.216V19H20V7.238ZM4.511 5L12.061 11.662L19.502 5H4.511Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_181">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <button class="form__btn btn" type="submit">Заказать сайт</button>
+        </div>
+      </form>
+    </section>
+    <section class="map">
+      <div class="map__img"></div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__policy">
+          <img class="footer__policy-img" src="img/logo-footer.png" alt="логотип">
+          <p class="footer__policy-text">
+            Gvate Agency © 2010-2021 <br>
+            Не является публичной офертой
+            Политика конфиденциальности
+          </p>
+        </div>
+        <div class="footer__site-sections">
+          <p class="footer__site-sections-title">Разделы</p>
+          <a class="footer__site-sections-link" href="#">Главная</a>
+          <a class="footer__site-sections-link" href="#">О нас</a>
+          <a class="footer__site-sections-link" href="#">Портфолио</a>
+          <a class="footer__site-sections-link" href="#">Карта сайта</a>
+          <a class="footer__site-sections-link" href="#">Контакты</a>
+        </div>
+        <div class="footer__services">
+          <p class="footer__services-title">Услуги</p>
+          <a class="footer__services-link" href="#">SEO продвижение</a>
+          <a class="footer__services-link" href="#">Контекстная реклама</a>
+          <a class="footer__services-link" href="#">Создание сайтов</a>
+          <a class="footer__services-link" href="#">Верстка сайта</a>
+          <a class="footer__services-link" href="#">Администрирование сайта</a>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contacts-title">Контакты</p>
+          <a class="footer__contacts-tel" href="tel:+78124245699">+7(812) 424-56-99</a>
+          <span class="footer__contacts-tel-text">Заказать звонок</span>
+          <a class="footer__contacts-email" href="mailto:info@gvate.ru">info@gvate.ru</a>
+          <div class="footer__contacts-social">
+            <a class="footer__social-telegram" href="#">
+              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="7" fill="#1C99DF" />
+                <path
+                  d="M7.3356 17.1609L11.7136 18.7949L13.4081 24.2446C13.5166 24.5936 13.9434 24.7226 14.2266 24.491L16.667 22.5016C16.9228 22.2931 17.2872 22.2827 17.5545 22.4768L21.956 25.6724C22.2591 25.8927 22.6884 25.7266 22.7644 25.3604L25.9888 9.85066C26.0718 9.45065 25.6787 9.11694 25.2978 9.26426L7.33047 16.1955C6.88707 16.3665 6.89093 16.9943 7.3356 17.1609ZM13.135 17.9251L21.6912 12.6553C21.845 12.5609 22.0032 12.7688 21.8712 12.8913L14.8098 19.4552C14.5616 19.6862 14.4015 19.9954 14.3562 20.331L14.1156 22.1136C14.0838 22.3516 13.7494 22.3752 13.6838 22.1449L12.7586 18.8943C12.6527 18.5235 12.8071 18.1275 13.135 17.9251Z"
+                  fill="white">
+              </svg>
+            </a>
+            <a class="footer__social-whatsapp" href="#">
+              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="7" fill="#4FC53D" />
+                <g clip-path="url(#clip0_1259_116)">
+                  <path
+                    d="M17.0392 8.01111C12.0213 8.25003 8.06148 12.429 8.0767 17.4525C8.08134 18.9826 8.45072 20.4267 9.10233 21.7028L8.10188 26.5591C8.04776 26.8218 8.28468 27.0518 8.54564 26.99L13.3042 25.8626C14.5268 26.4716 15.9 26.8233 17.3533 26.8455C22.482 26.9238 26.7585 22.8515 26.9184 17.7246C27.0897 12.229 22.554 7.74847 17.0392 8.01111ZM22.7172 22.6407C21.3236 24.0343 19.4707 24.8018 17.4999 24.8018C16.3459 24.8018 15.2411 24.5429 14.216 24.0323L13.5533 23.7021L10.6358 24.3934L11.2499 21.4122L10.9234 20.7729C10.3913 19.7307 10.1215 18.6037 10.1215 17.4233C10.1215 15.4525 10.8889 13.5996 12.2825 12.206C13.6637 10.8248 15.5468 10.0449 17.5 10.0449C19.4708 10.0449 21.3237 10.8124 22.7172 12.2059C24.1108 13.5995 24.8783 15.4524 24.8784 17.4232C24.8783 19.3765 24.0983 21.2596 22.7172 22.6407Z"
+                    fill="white" />
+                  <path
+                    d="M22.0731 19.4668L20.2478 18.9427C20.0079 18.8738 19.7495 18.9418 19.5746 19.12L19.1282 19.5748C18.94 19.7665 18.6544 19.8281 18.4053 19.7274C17.5419 19.3779 15.7256 17.763 15.2617 16.9552C15.1279 16.7222 15.15 16.4309 15.3143 16.2183L15.704 15.7141C15.8567 15.5166 15.8889 15.2513 15.788 15.023L15.02 13.2861C14.8361 12.8701 14.3045 12.749 13.9572 13.0427C13.4478 13.4736 12.8433 14.1283 12.7698 14.8537C12.6403 16.1326 13.1887 17.7447 15.2628 19.6804C17.6588 21.9167 19.5776 22.2122 20.8268 21.9096C21.5354 21.7379 22.1017 21.0499 22.4591 20.4865C22.7027 20.1024 22.5103 19.5923 22.0731 19.4668Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1259_116">
+                    <rect width="19" height="19" fill="white" transform="translate(8 8)">
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
